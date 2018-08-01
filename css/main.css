@@ -1,0 +1,17 @@
+.boxed
+{   
+    margin-top: 1em;
+}
+.LightTitles
+{
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 5px;
+    border: solid #343a40;
+    border-width: 1.5px;
+}
+
+.offset
+{
+    margin-left: -5%;
+}
