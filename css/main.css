@@ -10,7 +10,10 @@
     border: solid #343a40;
     border-width: 1.5px;
 }
-
+.lighter{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
 .offset
 {
     margin-left: -5%;
