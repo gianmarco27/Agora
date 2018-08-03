@@ -18,3 +18,21 @@
 {
     margin-left: -5%;
 }
+.btn-increment{
+    max-width: 1em;
+    padding: auto;
+    padding-left: 0.5em;
+    font-family: monospace !important;
+}
+.btn-decrement{
+    max-width: 1em;
+    padding-left: 0.5em;
+    font-family: monospace !important;
+}
+.input-group{
+    max-width: 5em;
+    margin:auto;
+}
+.form-control{
+    padding: 0;
+}

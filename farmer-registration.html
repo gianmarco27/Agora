@@ -24,13 +24,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="./home.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Marketplace</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Your Farm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Come Visit Us</a>
               </li>
             </ul>
           </div>
@@ -41,19 +44,67 @@
         <div class="container">
             <div class="row">
                 <div class=" col-12 text-center">
-                    <h3 class="lighter">
-                        Agora World
-                    </h3>
-                    <img src="./img/video-pich.png" width="100%" class="d-inline-block align-center" alt="element 1">
-                    <hr>
-                    <h3 class="my-4 lighter">
-                        Welcome to the next sustainable agricolture generation
-                    </h3>
-                    <hr>
-                    <button type="button" onclick="location.href='./farmer-registration.html" class="btn btn-success mt-3 p-1">Sign up</button>
+                    <h4 class="my-2 lightTitles">
+                        CREATE YOUR FARM
+                    </h4>
+                    <table class="table table-hover text-center">
+                      <thead>
+                        <tr>
+                          <th scope="col"></th>
+                          <th scope="col">Product</th>
+                          <th scope="col">Quantity</th>
+                          <th scope="col">Price</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">
+                              <img src="./img/veggie.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                          </th>
+                          <td class="align-middle">Vegetables</td>
+                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
+                          <td class="align-middle">0.00$</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                              <img src="./img/Piggy.ico" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                          </th>
+                          <td class="align-middle">Pig</td>
+                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
+                          <td class="align-middle">0.00$</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                              <img src="./img/henhouse.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                          </th>
+                          <td class="align-middle">HenHouse</td>
+                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
+                          <td class="align-middle">0.00$</td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row">
+                              <img src="./img/cow.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                          </th>
+                          <td class="align-middle">Cow</td>
+                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
+                          <td class="align-middle">0.00$</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                              <img src="./img/calf.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                          </th>
+                          <td class="align-middle">Calf</td>
+                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
+                          <td class="align-middle">0.00$</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+
+                    <button type="button" onclick="location.href='./farm.html" class="btn btn-success mt-3 p-1">Confirm</button>
                 </div>
             </div>
-            
+    
         </div>
         
         
@@ -63,5 +114,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/InputSpinner.js"></script>
+    <script>$("input[type='number']").InputSpinner();</script>
+        
     </body>
 </html>
