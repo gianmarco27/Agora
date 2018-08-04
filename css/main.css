@@ -36,3 +36,9 @@
 .form-control{
     padding: 0;
 }
+.collect-button{
+    position: absolute;
+    right: 5%;
+    border-width: 2px;
+    border-color: white;
+}

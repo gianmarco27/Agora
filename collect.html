@@ -39,21 +39,22 @@
           </div>
         </nav>
         
-<!--------------------------------BECOME A FARMER--------------------------        -->
+<!--------------------------------COLLECT--------------------------        -->
 
         <div class="container">
             <div class="row">
                 <div class=" col-12 text-center">
                     <h4 class="my-2 lightTitles">
-                        CREATE YOUR FARM
+                        COLLECT YOUR GOODS
                     </h4>
                     <table class="table table-hover text-center">
                       <thead>
                         <tr>
                           <th scope="col"></th>
                           <th scope="col">Product</th>
-                          <th scope="col">Quantity</th>
-                          <th scope="col">Price</th>
+                          <th scope="col">Completion</th>
+                          <th scope="col"></th>
+                          <th scope="col"></th>
                         </tr>
                       </thead>
                       <tbody>
@@ -61,47 +62,49 @@
                           <th scope="row">
                               <img src="./img/tomato.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
                           </th>
-                          <td class="align-middle">Tomatoes</td>
-                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
-                          <td class="align-middle">0.00$</td>
+                          <td class="align-middle px-0">Tomatoes</td>
+                          <td class="align-middle px-0">30%</td>
+                          <td class="align-middle px-0"></td>
+                          <td class="align-middle px-0"></td>
                         </tr>
                         <tr>
                           <th scope="row">
-                              <img src="./img/Piggy.ico" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                              <img src="./img/corn.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
                           </th>
-                          <td class="align-middle">Pig</td>
-                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
-                          <td class="align-middle">0.00$</td>
+                          <td class="align-middle px-0">Corn</td>
+                          <td class="align-middle px-0">10%</td>
+                          <td class="align-middle px-0"></td>
+                          <td class="align-middle px-0"></td>
                         </tr>
                         <tr>
                           <th scope="row">
-                              <img src="./img/henhouse.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                              <img src="./img/chicken.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
                           </th>
-                          <td class="align-middle">HenHouse</td>
-                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
-                          <td class="align-middle">0.00$</td>
-                        </tr>
+                          <td class="align-middle px-0">Chicken</td>
+                          <td class="align-middle px-0">100%</td>
+                          <td class="align-middle px-0"><button type="button" onclick="location.href='./collected.html'" class="btn btn-success m-0 p-0 px-1">Keep</button></td>
+                          <td class="align-middle px-0"><button type="button" onclick="location.href='./marketplace-urban.html'" class="btn btn-warning m-1 p-0 px-2 text-white">Sell</button></td>
+                          </tr>
                         <tr class="align-middle">
                           <th scope="row">
-                              <img src="./img/cow.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                              <img src="./img/milk.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
                           </th>
-                          <td class="align-middle">Cow</td>
-                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
-                          <td class="align-middle">0.00$</td>
+                          <td class="align-middle px-0">Milk</td>
+                          <td class="align-middle px-0">100%</td>
+                          <td class="align-middle px-0"><button type="button" onclick="location.href='./collected.html'" class="btn btn-success m-0 p-0 px-1">Keep</button></td>
+                          <td class="align-middle px-0"><button type="button" onclick="location.href='./marketplace-urban.html'" class="btn btn-warning m-1 p-0 px-2 text-white">Sell</button></td>
                         </tr>
                         <tr>
                           <th scope="row">
-                              <img src="./img/calf.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
+                              <img src="./img/sausage.png" width="30" height="30" class="d-inline-block mt-1" alt="element 1">
                           </th>
-                          <td class="align-middle">Calf</td>
-                          <td><input type="number" value="1" min="0" max="10" step="1"></td>
-                          <td class="align-middle">0.00$</td>
+                          <td class="align-middle px-0">Sausage</td>
+                          <td class="align-middle px-0">20%</td>
+                          <td class="align-middle px-0"></td>
+                          <td class="align-middle px-0"></td>
                         </tr>
                       </tbody>
                     </table>
-                    
-
-                    <button type="button" onclick="location.href='./farm.html'" class="btn btn-success mt-3 p-1">Confirm</button>
                 </div>
             </div>
     
@@ -114,9 +117,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/InputSpinner.js"></script>
-    <script>$("input[type='number']").InputSpinner();</script>
-        
+
     </body>
 </html>
